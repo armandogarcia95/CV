@@ -1,0 +1,99 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Assistant', sans-serif;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: white;
+}
+
+#navbar {
+    margin-top: 1vw;
+    text-align: center;
+    background-color: rgb(230, 230, 230);
+    border-radius: 13px;
+    list-style-type: none;
+    position: relative;
+    
+}
+.navbottom {
+    color: rgb(15, 15, 15);
+    text-align: center;
+    padding: 5px 10px;
+    transition: all .3s ease-in-out;
+    font-weight: bold;
+}
+.navbottom:hover {
+    /*transform: scale(1.05);*/
+    color: rgb(15, 15, 15);
+    background-color: white;
+    border-radius: 13px;
+    font-weight: bold;
+    text-decoration: none;
+    box-shadow: 0px 4px 8px 0px #a8a8a8;
+
+}
+hr {
+    background-color: black;
+
+}
+
+.photo1 {
+    position: relative;
+    width: 25vw;
+    margin-top: 1vw;
+    border-radius: 15px;
+}
+.texto1 {
+    margin-top: 1vw;
+    border-radius: 15px;
+    background-color: rgb(230, 230, 230);
+    height: 25vw;
+    color: rgb(39, 39, 39);
+    padding: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.skills {
+    margin-top: 1vw;
+    border-radius: 15px;
+    background-color: rgb(230, 230, 230);
+    height: 38vw;
+    color: rgb(39, 39, 39);
+    padding: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.photo2 {
+    width: 38vw;
+    margin-top: 1vw;
+    border-radius: 15px;
+}
+.redes {
+    margin-top: 1vw;
+    height: 100px;
+    margin-bottom: 3vw;
+    position: relative;
+    text-align: center; 
+}
+.logosredes img{
+    width: 4vw;
+    margin: 24px 80px;
+    transition: all .3s ease-in-out;
+}
+.logosredes img:hover {
+    transform: scale(1.3);
+    background-color: rgb(230, 230, 230);
+    border-radius: 13px;
+    box-shadow: 0px 4px 8px 0px #a8a8a8;
+
+}
+#carrusel img {
+    height: 30%;
+    position: relative;
+    border-radius: 13px;
+}
+.footer {
+    background-color: rgb(31, 31, 31);
+    margin-top: 3vw;
+    color: aliceblue;
+}
